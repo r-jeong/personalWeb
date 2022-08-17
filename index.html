@@ -8,20 +8,23 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+
+   <!-- 
     <audio class="bg-music" autoplay>
       <source loop src="audio/merry.mp3" />
     </audio>
+ -->
 
     <div class="name">Richard Jeong</div>
     <div class="topnav">
-      <a class="college-github prolink" href="https://github.com/rjeon001"
+      <!-- <a class="college-github prolink" href="https://github.com/rjeon001"
         ><img
           class="git-img prolink"
           src="images/GitHub-Mark-Light-120px-plus.png"
           alt="GitHub image logo (white)"
         />
         Github</a
-      >
+      > -->
 
       <label
         ><a class="personal-github prolink" href="https://github.com/r-jeong">
@@ -30,7 +33,17 @@
             src="images/GitHub-Mark-Light-120px-plus.png"
             alt="GitHub image logo (white)"
           />
-          Personal Github</a
+          <!--Personal Github --></a
+        ></label
+      >
+      <label
+        ><a class="email prolink" href="mailto:richard.jeong7@gmail.com">
+          <img
+            class="email-img prolink"
+            src="images/email.png"
+            alt="Email image logo (white)"
+          />
+          <!--Personal Github --></a
         ></label
       >
 
@@ -43,7 +56,7 @@
           src="images/linkedin-mono.png"
           alt="LinkedIn image logo (white)"
         />
-        LinkedIn</a
+        <!--LinkedIn --></a
       >
     </div>
     <div class="center-block">
@@ -51,20 +64,94 @@
         <img class="pfp" src="images/face.jpeg" alt="Profile Photo" />
       </div>
       <div class="about-title">ABOUT ME</div>
-      <div class="about-text">Hi, welcome to my personal website!</div>
       <div class="about-text">
-        My name is Richard Jeong and I am a fourth-year attending the University
-        of California, Riverside.
+        Hi, I'm Richard Jeong. An aspiring Front-End developer based in the
+        United States. I am currently learning Javascript and ways to implement
+        it into my website.
+      </div>
+      <div class="about-text"></div>
+      <div class="about-text bel">
+        My hobbies include playing games, watching films, and hanging out with
+        friends.
       </div>
     </div>
 
     <div class="explore-sect">
       <div class="explore-back">
-        <h1 class="hobby-sect">Hobbies</h1>
-      </div>
-    </div>
-    <footer class="contact">
-      <h1>Contact me</h1>
-    </footer>
+        <div class="carousel">
+          <div class="nav-arrow-left"> </div>
+          <div class="nav-arrow-right"> </div>
+
+
+
+
+          <div class="car-item">
+            <img class="first-img" src="images/pixiv.png" alt="content1image"/>
+            <img class="star" src="images/star.png" alt="star"/>
+            <p class = "display-title">Featured Work</p>
+            <div class="info-box">My first attempt at recreating a web page. 
+              Has working anchors with buttons that transition to different shades when hovered over.</div>
+            <div class="skill-box">HTML CSS GIT</div>
+          </div>
+
+
+
+
+
+          <div class="car-item">
+            <img class="second-img" src="images/schedule.png" alt="content2image"/>
+            <img class="book" src="images/book.png" alt="book"/>
+            <p class = "display-title">Coursework
+            </p>
+            <div class="info-box2">
+              <div ><p class="spacer">Relavent Coursework</p></div>
+              <ul> 
+                <li>Design and Architecture of Computer Systems</li>
+                <li>Automata and Formal Languages </li>
+                <li>Data Structures and Algorithms </li>
+                <li>Compiler Design </li>
+
+            </ul>
+
+            <ul class="rc2">
+              <li>Software Construction </li>
+              <li>Embedded Systems</li>
+              <li>Discrete Structures</li>
+              <li>Combinatorics</li>
+            </ul>
+
+
+          </div>
+
+
+          <div class="other-box2">
+            <div ><p class="spacer">Class Schedule</p></div>
+            <ul> 
+              <li>Concurrent Programming and Parallel Systems</li>
+              <li>Engineering 180W Writing Workshop (Technical Communications)</li>
+              <li>Introduction to Native American Studies in Comparative Perspective</li>
+              <li>Introduction to Classical Optimization</li>
+          </ul>
+
+          </div>
+
+
+          </div>
+
+
+
+
+
+          <div class="car-item">
+            <img class="third-img" src="images/maps.jpg" alt="content3image"/>
+            <img class="wave" src="images/wave.png" alt="wave"/>
+            <p class = "display-title">Current Project</p>
+            <div class="info-box3">Right now I am working on a web application project that integrates both a Front-End and 
+              Back-End to communicate specific locations based off of user's inputs. 
+              I plan to implement Google Map API and much more in this project.</div>
+          </div>
+
+
+    <script src="main.js"></script>
   </body>
 </html>
